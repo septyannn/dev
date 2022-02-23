@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/septyan8/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp -r img $DEPLOYPATH
+    - /bin/cp -r frontend $DEPLOYPATH
+    - /bin/cp -r project $DEPLOYPATH
+    - /bin/cp -r uploads $DEPLOYPATH
